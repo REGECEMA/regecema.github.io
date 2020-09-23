@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+}
+
+#principal {
+}
+
+.navbar-light .navbar-brand {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+#navcol-1 {
+  height: 40;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+#lab {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+}
+
+#Laboratory {
+  text-align: center;
+  padding: 40px;
+  background-size: cover;
+  background-image: url("../../assets/img/bg_image_lg.jpg");
+  margin-top: 52px;
+}
+
+#Laboratory .jumbotron {
+  border-color: rgb(255,255,255);
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(14,13,13,0);
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  #Laboratory .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  #Laboratory {
+    padding: 20px;
+    background-image: url("../../assets/img/bg_image_sm.jpg");
+    margin-top: 52px;
+  }
+}
+
+#main_par {
+  padding-top: 10px;
+}
+
