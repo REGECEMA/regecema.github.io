@@ -83,7 +83,7 @@ eform.addEventListener('submit', function (e) {
             "Subjet: " + subject + "\n" +
             "----------------------------------------------- \n" +
             " !!! WARNING !!! \n" +
-            " This FORM has not be submitted as it is under development!");
+            " This FORM has not been submitted as it is under development!");
 
     } else {
         alert(" ERROR  --- FORM data is NOT VALID --- \n" +
