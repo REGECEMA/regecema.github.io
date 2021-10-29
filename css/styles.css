@@ -1,0 +1,546 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ######################################
+   ###            BODY              ### 
+   ###################################### */
+
+body {
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  margin: 0px;
+}
+
+/* ############# BODY END ############# */
+
+
+/* ######################################
+   ###            HEADER              ### 
+   ###################################### */
+
+.navbar {
+  background-color: rgb(87,223,253);
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+} 
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: rgb(100, 100, 100) !important;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(0, 0, 0) !important;
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(167, 237, 253);
+  border-radius: 15%;
+}
+
+/* ############# HEADER END ############# */
+
+
+/* ######################################
+   ###            FOOTER              ### 
+   ###################################### */
+/* divided into 3 blocks of 400 x 250 px
+   with a usable area of 380 x 180 px  */
+
+footer {
+  background-color: rgb(87,223,253);
+  width: 100%;
+  margin: 0px;
+}
+
+#footer {
+  background-color: rgb(87,223,253);
+  width: 95%;
+  max-width: 1320px;
+  margin: 0 auto;
+ }
+
+#brand_name {
+  padding: 20px 10px;
+} 
+
+#brand_name p{
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  margin: 0px;
+  padding: 20px 40px 0px 10px; 
+}
+
+#brand_data {
+  padding: 35px 10px;
+} 
+
+#brand_data p{
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px; 
+}
+
+#brand_data a{
+  color: rgb(38,119,214);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer_icon {
+  width: 60px;
+  height: 60px;
+  padding: 10px 10px;
+  float: left;
+}
+
+#brand_logo {
+  padding: 35px 10px;
+}
+
+#brand_logo img {
+  width: 80%;
+  min-width: 300px;
+  max-width: 335px;
+  max-height: 180px;
+  padding: 15px 15px;
+  margin: 0 10%;
+}
+
+/* ############# FOOTER END ############# */
+
+
+/* ######################################
+   ###           MAIN SECTION         ### 
+   ###################################### */
+
+.main {
+  width: 95%;
+  max-width: 1320px;
+  margin-top: 75px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 5px; 
+}
+
+.main h1 {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.main h2 {
+  color: rgb(38,119,214);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main p {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main a {
+  color: rgb(38,119,214);
+  text-decoration: none;
+}
+
+.main a:hover{
+  text-decoration: underline;
+}
+
+.item {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.div_line {
+  height: 2px;
+  background-color: #5f5f5f;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+}
+
+
+/* HOME page */ 
+.banner{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 200px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-image: url("../img/bg_image_lg.jpg");
+}
+
+.banner h1 {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+
+/* PUBLICATIONS page */ 
+.journal {
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+/* COLLABORATIONS page */ 
+.collaborator {
+  margin-top: 5px;
+  margin-bottom: 35px;
+  display: flex;
+}
+
+.collaborator p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.col_picture {
+  min-width: 100px;
+  max-width: 100px;
+  margin-right: 5px;
+}
+
+.col_picture img {
+  width: 100%;
+}
+
+.col_data {
+padding: 5px 0px 0px 5px;
+float: left;
+}
+
+
+/* TEAM page */ 
+.team_data {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.team_data img {
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+/* NEWS page */ 
+.year {
+  background-color: rgb(150, 150, 150);
+  margin: 5px auto;
+}
+
+.year h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+}
+
+.news {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.news h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+}
+
+
+/* ABOUT page */ 
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form_container {
+  border-radius: 5px;
+  background-color: rgb(220, 220, 220);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form_label {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.form_input {
+  width: 100%;
+  margin-top: 0px;
+}
+
+/* ############# MAIN SECTION END ############# */
+
+
+
+/* ######################################
+   ###           RESPONSIVE           ### 
+   ###################################### */
+
+@media all and (min-width:960px) {
+  
+  /* FOOTER */ 
+  #footer {
+    display: flex;
+  }
+
+  #brand_name {
+    width: 33%;
+    padding: 20px 10px;
+  } 
+
+  #brand_name p{
+    width: 100%;
+    margin: 0px;
+    padding: 20px 40px 0px 10px; 
+  }
+  
+  #brand_data {
+    width: 33%; 
+    padding: 35px 10px;
+  } 
+
+  #brand_data p{
+    width: 80%;
+    height: 60px;
+  }
+  
+  #brand_logo {
+    width: 33%;
+    padding: 35px 10px;
+  } 
+
+  #brand_logo img {
+    width: 80%;
+    min-width: 250px;
+    max-width: 335px;
+    max-height: 180px;
+    padding: 15px 15px;
+    margin: 0 10%;
+  }
+
+
+  /* MAIN section */ 
+  .main {
+    width: 95%;
+    max-width: 1320px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 25px; 
+  }
+  
+  .main h1 {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .main h2 {
+    font-size: 16px;
+  }
+  
+  .main p {
+    font-size: 16px;
+  }
+
+
+  /* HOME page */ 
+  .banner {
+    height: 300px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    padding-top: 80px;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .banner h2 {
+    font-size: 20px;
+  }
+
+
+  /* COLLABORATIONS page */ 
+  .collaborator p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .col_picture {
+    min-width: 200px;
+    max-width: 200px;
+    margin-right: 10px;
+  }
+   
+  .col_data {
+    padding: 50px 0px 0px 20px;
+    float: left;
+  }
+
+  /* TEAM page */ 
+  .team_data {
+    font-size: 16px;
+  }
+
+  .team_data img {
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  /* NEWS page */ 
+  .year h1 {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+    
+  .news h2 {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  /* ABOUT page */ 
+   .form_label {
+    width: 25%;
+    margin-top: 6px;
+    float: left;
+  }
+
+  .form_input {
+    width: 75%;
+    margin-top: 6px;
+    float: left;
+  }
+
+  input[type=submit] {
+    width: 25%;
+    margin-top: 20px;
+    float: right;
+  }
+
+  .form_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+
+}
+
+
+@media all and (min-width:1140px) {
+  .footer_icon {
+    margin-left: 20px;
+  }
+}
+
+
+
